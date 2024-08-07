@@ -1,8 +1,22 @@
 # qgis-plugin-base
 
-This repository contains source code for base QGIS plugin. Bear in mind that this is not a full base plugin with all needed utility functions etc. This can be used a foundation for new QGIS plugin project :)
+This repository contains source code for base QGIS plugin. Bear in mind that this is not a full base plugin with all needed utility functions etc. This can be used as a foundation for new QGIS plugin project :)
+
+This repository contains used tools and inspiration from following amazing QGIS projects. Go check them out :fire:
+
+- [cookiecutter-qgis-plugin](https://github.com/GispoCoding/cookiecutter-qgis-plugin/tree/main)
+  - cookiecutter template for creating great base for QGIS plugin development
+- [qgis-plugin-tools](https://github.com/GispoCoding/qgis_plugin_tools)
+  - utility methods for QGIS plugin development
+- [pytest-qgis](https://github.com/GispoCoding/pytest-qgis)
+  - pytest plugin for QGIS development
+- [qgis-plugin-dev-tools](https://github.com/nlsfi/qgis-plugin-dev-tools)
+  - development tools to ease up QGIS plugin development
+
+## Table of contents
 
 - [qgis-plugin-base](#qgis-plugin-base)
+  - [Table of contents](#table-of-contents)
   - [Environment setup](#environment-setup)
     - [Install QGIS](#install-qgis)
     - [Create virtual environment with QGIS Python dependencies](#create-virtual-environment-with-qgis-python-dependencies)
