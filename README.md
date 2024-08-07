@@ -1,8 +1,8 @@
-# Example QGIS plugin
+# qgis-plugin-base
 
-This repository contains source code for example QGIS plugin.
+This repository contains source code for base QGIS plugin. Bear in mind that this is not a full base plugin with all needed utility functions etc. This can be used a foundation for new QGIS plugin project :)
 
-- [Example QGIS plugin](#example-qgis-plugin)
+- [qgis-plugin-base](#qgis-plugin-base)
   - [Environment setup](#environment-setup)
     - [Install QGIS](#install-qgis)
     - [Create virtual environment with QGIS Python dependencies](#create-virtual-environment-with-qgis-python-dependencies)
@@ -154,4 +154,4 @@ In order to QT-framework to read newest compiled translations script `scripts\up
 qgis-plugin-dev-tools build | qpdt build
 ```
 
-This creates a zip file i.e. `examople-plugin-x.x.x.zip` into `dist` folder. This zip-file can be installed via QGIS `Manage and Install Plugins...`.
+This creates a zip file i.e. `plugin-x.x.x.zip` into `dist` folder. This zip-file can be installed via QGIS `Manage and Install Plugins...`.
