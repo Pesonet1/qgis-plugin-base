@@ -1,0 +1,24 @@
+# Testing
+pytest
+pytest-cov
+pytest-qgis
+# pytest-qt
+# pytest-mock
+# pytest-timeout
+# pyqt5-tools
+
+# Debugging
+debugpy
+
+# Linting and formatting
+pre-commit # hooks before committing
+mypy # static type checked
+ruff # linter for rest of the Python rules
+flake8 # linter for QGIS rules
+flake8-qgis
+
+# Stubs
+PyQt5-stubs
+
+# Tools
+qgis-plugin-dev-tools

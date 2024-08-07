@@ -1,0 +1,17 @@
+[general]
+name=plugin
+description=
+about=
+version=0.0.1
+apiVersion=1
+qgisMinimumVersion=3.28
+author=
+email=
+changelog=
+tags=
+repository=
+tracker=
+homepage=
+category=Plugins
+experimental=True
+deprecated=False

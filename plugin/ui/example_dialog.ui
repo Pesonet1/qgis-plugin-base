@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>335</width>
+    <height>201</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>example_dialog</string>
+  </property>
+  <layout class="QVBoxLayout">
+   <item>
+    <widget class="QPushButton" name="add_layer_button">
+     <property name="text">
+      <string>addLayer</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="remove_layer_button">
+     <property name="text">
+      <string>removeLayer</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

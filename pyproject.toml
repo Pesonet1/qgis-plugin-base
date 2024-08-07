@@ -1,0 +1,45 @@
+[tool.qgis_plugin_dev_tools]
+plugin_package_name = "plugin"
+
+[tool.ruff]
+target-version = "py312"
+extend = "ruff_defaults.toml"
+
+exclude = [
+  ".venv",
+  ".vscode",
+  ".ruff_cache",
+  ".mypy_cache",
+  ".pytest_cache",
+  "docs"
+]
+
+[too.ruff.lint]
+ignore = ["E563"]
+
+[tool.mypy]
+follow_imports = "normal"
+disallow_untyped_defs = true
+
+disable_error_code = [
+  "import-untyped",
+  "no-untyped-def"
+]
+
+exclude = [
+  '^tests/'
+]
+
+[[tool.mypy.overrides]]
+module = [
+  "debugpy",
+  "pydevd_pycharm",
+  "plotly.*",
+  "qgis.*",
+  "osgeo.*"
+]
+ignore_missing_imports = true
+
+[tool.flake8]
+# Flake8 is used only for QGIS rules. Ruff is used for all other rules.
+select = "QGS"

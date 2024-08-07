@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "QGIS debugpy",
+      "type": "debugpy",
+      "request": "attach",
+      "connect": {
+        "host": "localhost",
+        "port": 5678
+      },
+      "pathMappings": [
+        {
+          "localRoot": "${workspaceFolder}/plugin",
+          "remoteRoot": "."
+        }
+      ]
+    }
+  ]
+}

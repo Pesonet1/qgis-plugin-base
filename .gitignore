@@ -1,0 +1,13 @@
+# python specific files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info
+*_cache
+
+# zipped plugin files
+dist
+
+# misc
+.venv
+.env
